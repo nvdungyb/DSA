@@ -1,0 +1,22 @@
+_ Đường đi euler là đường đi qua tất cả các cạnh đúng một lần.
+_ Chu trình euler: chu trình bắt đầu từ đỉnh u đi qua tất cả các cạnh đúng một lần rồi quay trở về đỉnh u.
+
+_ Kiểm tra đồ thị có chu trình euler hay không thì xét đk 
++đồ thị vô hướng: thì bậc các đỉnh là chẵn.
++đồ thị có hướng: bán bậc ra bằng bán bậc vào.
+_ Kiểm tra đường đi euler của đồ thị.
++đồ thị vô hướng: tồn tại hai đỉnh bậc lẻ.
++đồ thị có hướng: tồn tại hai đỉnh u,v sao cho: deg-(u) - deg+(u) = deg+(v) - deg-(v).
+
+_ Đường đi Hamilton: là đường đi hết tất cả các đỉnh của đồ thị.
+_ Chu trình hamilton: tồn tại chu trình bắt đầu từ u đi hết tất cả các đỉnh của đồ thị và kết thúc tại u.
+
+_ Đồ thị hai phía: là đồ thị có thể chia thành hai tập đỉnh riêng mà trong mỗi tập đỉnh không có 
+cạnh nối với hai đỉnh bất kì trong tập đỉnh đó.
+=> ta có thể tô hai mầu khác nhau cho hai đỉnh kề nhau.
+	+ nếu tô được thì đồ thị là đồ thị hai phía.
+	+ nếu tồn tại hai đỉnh kề nhau màu giống nhau thì đồ thị ko phải là đồ thị hai phía.
+
+_ Cây khung của đồ thị.
++ một đồ thị V đỉnh là cây khi và chỉ khi có V-1 cạnh đơn hoặc đồ thị là liên thông và không tồn tại chu trình.
++ một đồ thị có thể xây dựng được cây khung khi đồ thị là liên thông.
